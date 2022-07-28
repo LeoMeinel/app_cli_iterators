@@ -13,7 +13,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program. If not, see https://github.com/TamrielNetwork/app_cli_iterators/blob/main/LICENSE
+ * along with this program. If not, see https://github.com/LeoMeinel/app_cli_iterators/blob/main/LICENSE
  */
 
 use std::{env, process};
