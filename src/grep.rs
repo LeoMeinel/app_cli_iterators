@@ -34,6 +34,7 @@ fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
         .collect()
 }
 
+#[allow(clippy::needless_borrow)]
 fn search_case_sensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     // iterator methods instead of checking every element -> zero cost abstraction (same performance)
     contents
